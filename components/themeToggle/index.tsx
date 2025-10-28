@@ -8,19 +8,26 @@ import { ThemeContext } from "@/context/themeContext"
 export default function ThemeToggle() {
   
   
-  const theme  = useContext(ThemeContext)
+  const {theme,toggle}  = useContext(ThemeContext)!;
   console.log(theme)
 
   return (
-    <div className="themeToggle-container">
+    <div className="themeToggle-container" onClick={toggle}>
      {/*} <Image className= "sun" src= "/sun.png"alt=" " width={15} height={15} style={{
     backgroundColor: "transparent",
   }}/>
       <div className="ball"></div>
       <Image src="/moon.png" alt=" " width={25} height={18}/>*/} 
-      <FaSun className="text-yellow-400" size={12} />
-       <div className="ball"></div>
-      <FaMoon className="text-yellow-100" size={12} />
+       <FaMoon className="text-yellow-100" size={12} />
+       <div className="ball" 
+            style={
+              theme==="dark" ?
+              {left:1, backgroundColor:"black"}:
+              {right:1,backgroundColor:"white"}
+            }>
+        </div>
+     
+      <FaSun className="text-yellow-600" size={12} />
 
     </div>
   );
