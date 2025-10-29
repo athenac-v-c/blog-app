@@ -1,15 +1,9 @@
 
 import './index.css'
-import Image from "next/image";
 import Link from 'next/link'
-import {
-  FacebookShareButton,
-  TwitterShareButton,
-  FacebookIcon,
-  TwitterIcon,
-} from "react-share";
 import AuthLinks from '../authLinks';
 import ThemeToggle from '../themeToggle';
+
 
 
 export default function Navbar(){
@@ -33,15 +27,15 @@ export default function Navbar(){
             <div className='navbar-logo'>Daily News</div>
             <div className='navbar-links'>
                 <ThemeToggle />
-                <Link href="/">Home</Link>
-                <Link href="/">Contact</Link>
-                <Link href="/">About</Link>
+                <Link href="/" className='navbar-link'>Home</Link>
+                <Link href="/" className='navbar-link'>Contact</Link>
+                <Link href="/" className='navbar-link'>About</Link>
                 <AuthLinks />
                 
 
 
             </div>
-            <div className='navbar-'></div>
+          
         
         
         
