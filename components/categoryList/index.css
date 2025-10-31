@@ -72,3 +72,26 @@
    background-color: rgb(157, 108, 36);
   
 }
+@media screen and (max-width:1280px){
+   .category-link{
+      width: 20%;
+   }
+}
+
+@media screen and (max-width:1024px){
+   .category-link{
+      width: 25%;
+   }
+}
+
+@media screen and (max-width:768px){
+   .category-link{
+      width: 45%;
+   }
+}
+
+@media screen and (max-width:640px){
+   .category-link{
+      width: 100%;
+   }
+}
