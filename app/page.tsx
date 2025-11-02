@@ -11,7 +11,7 @@ export default function homepage(){
     <div className="homePage-container">
       <Feature />
       <CategoryList/>
-      <div className="homepage-content">
+      <div className="homePage-content">
         <CardList />
         <Menu />
 
