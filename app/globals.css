@@ -4,7 +4,8 @@
   --bg:white; 
   --textColor:black; 
   --softBg:white; 
-  --softTextColor:#626262; 
+  --softTextColor:#e9e0e0;
+  --categoryTextColor: #eb3030;
 } 
 *{ 
   padding:0; 
@@ -37,6 +38,7 @@ body{
   --textColor:#ddd;
   --softBg:#1f273a;
   --softTextColor:#a6a6a6;
+  --categoryTextColor: #f23535;
 }
 /*
 [data-theme="dark"] {

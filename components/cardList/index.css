@@ -1,3 +1,8 @@
 .cardList-container{
     flex:5;
+    margin-top: 4%;
+}
+.title{
+    font-size: 30px;
+    
 }

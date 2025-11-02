@@ -44,7 +44,7 @@
     justify-content: flex-start;
     text-decoration: underline;
     cursor:pointer;
-   width: max-content;
+    width: max-content;
 }
 .readBtn:hover{
     text-decoration: underline;
