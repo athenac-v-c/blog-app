@@ -24,7 +24,7 @@ export default function Navbar(){
                     <i className="fa fa-youtube"></i>
                 </a>
             </div>
-            <div className='navbar-logo'>Daily News</div>
+            <div className='navbar-logo'>Blog APP</div>
             <div className='navbar-links'>
                 <ThemeToggle />
                 <Link href="/" className='navbar-link'>Home</Link>
